@@ -1,7 +1,7 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: radix-platform
+  name: oyron-radix-platform
 spec:
   environments:
     - name: prod
@@ -25,4 +25,3 @@ spec:
             limits:
               memory: "150Mi"
               cpu: "120m"
-
